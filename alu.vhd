@@ -44,7 +44,7 @@ begin
         port map(
             a => n,
             b => m_inverted,
-            ci => '1',
+            ci => sub,
             s => adder_result,
             co => adder_carry_out
         );
